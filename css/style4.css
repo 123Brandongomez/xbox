@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    background-color: #000000;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(2, 255, 255);
+    font-weight: bold;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/*casillas de ingreso*/
+input[type="text"], textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #4e0b0b;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+input[type="text"]:hover {
+    background-color: #ffffff;
+}
+
+/*boton de enviar*/
+
+
+button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    
+    text-align: FLEX;
+    padding: 10px;
+    background-color: #7d7d7d;
+    
+    
+}
+ aside{
+    image-rendering: auto;
+    max-width: 50px;
+    margin: 10 auto;
+    display: flex;
+    text-decoration: dotted;
+    display: flex;
+    margin: 5;
+ }
