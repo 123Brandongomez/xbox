@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+   text-align: center;
+   padding: 20px;
+   background-color: #333;
+   color: #fff;
+}
+
+nav {
+   display: flex;
+   justify-content: start;
+   gap: 20px;
+   margin-top: 10px;
+}
+
+nav a {
+   background-color: #000000;
+   color: rgb(2, 255, 255);
+   padding: 15px 25px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 18px;
+}
+
+
+
+
+
+
+footer {
+   margin-top: 90px;
+   background-color: #4d4d4d;
+   padding: 20px;
+   color: #fff;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+footer aside {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+ /* stylos formulario */
+ .formulario{
+    height: 350px;
+    width: 500px;
+    background-color: rgb(35, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+    flex-direction: column;
+
+ }
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ input{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+ }
+ label{
+    margin: 120px;
+ }
+
+ button{
+    justify-content: start;
+    background-color: black;
+    color: aqua;
+    height: 50px;
+    width: 80px;
+    margin: 20px 20px 20px 110px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+ }
+ button:hover{
+    cursor: pointer;
+    background-color: #686565;
+ }

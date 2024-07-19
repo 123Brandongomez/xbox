@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xbox360</title>
+    <link rel="stylesheet" href="/css/inscripcion.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Inscripcion</h1>
+      <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="/utilidad.html">Utilidad</a>
+        <a href="/compra.html">compra</a>
+        <a href="/inscripcion.html">Inscripcion</a>
+        <a href="https://www.youtube.com/?app=desktop&hl=es">Salir</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Inscribete para mas informacion</h2>
+      <div class="formulario">
+        <form action="/submit_formulario" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="apellido">telefono:</label>
+          <input type="text" id="apellido" name="apellido" required />
+          <label for="telefono">correo:</label>
+          <input type="text" id="telefono" name="telefono" />
+          <label for="fecha">fecha:</label>
+          <input type="date" id="fecha" name="fecha" required />
+          <div class="enviar">
+            <button onclick="alert(realizarCompra)">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <aside>
+        <img src="/img/icons8-facebook-nuevo-50.png" alt="" />
+        <h4>xbox@str</h4>
+        <img src="/img/icons8-youtube-50.png" alt="" />
+        <h4>xbox@str.com</h4>
+        <img src="/img/icons8-instagram-50.png" alt="" />
+        <h4>xbox@str</h4>
+      </aside>
+    </footer>
+    <script>
+      function realizarCompra() {
+        alert("Compra realizada exitosamente");
+      }
+    </script>
+  </body>
+</html>
