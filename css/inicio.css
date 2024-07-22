@@ -39,25 +39,27 @@ nav a {
 .contenido {
     margin-right: 50px;
 }
-.content-wrapper {
+.content {
     display: flex;
     flex-direction: row;
 }
 
 footer {
-    margin-top: 90px;
     background-color: #4d4d4d;
-    padding: 20px;
+    padding: 50px;
     color: #fff;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
-footer aside {
+.contact-icons div {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
 }
 

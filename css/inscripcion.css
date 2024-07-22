@@ -35,20 +35,22 @@ nav a {
 
 
 footer {
-   margin-top: 90px;
    background-color: #4d4d4d;
-   padding: 20px;
+   padding: 50px;
    color: #fff;
    text-align: center;
-   justify-content: center;
-   align-items: center;
-   display: flex;
 }
 
-footer aside {
+.contact-icons div {
    display: flex;
-   flex-direction: row;
-   align-items: center;
+   align-items: center; 
+   gap: 10px; 
+}
+
+.icons {
+   display: flex;
+   justify-content: space-around; 
+   flex-wrap: wrap;
 }
 
  /* stylos formulario */
@@ -61,13 +63,14 @@ footer aside {
     align-items: center;
     margin-bottom: 55px;
     flex-direction: column;
-
+    color: aqua;
  }
  main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
  }
 
  input{
